@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/bed3b1b3a6.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="with=device-width, initial-scale= 1.0">
+        <title>
+            Portfolio
+        </title>
+        <link rel="stylesheet" href="pstyles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/portfoliologo.png" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi <br> I'm Nikhil Mathew</h1>
+                    <p>Developer | ML Enthusiast | Student</p>
+                </div>
+            </div>
+        </div>
+<!-- -----------------------about------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/nikhil2.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">ABOUT ME</h1>
+                        <p>I'm Nikhil Mathew, a 3rd year student at Model Engineering College and 
+                            an aspiring engineer with a passion for technology and innovation.
+                            I have always had a deep love for tech related stuff and I wanna explore 
+                            the tech space.  </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                                <p class="tab-links" onclick="opentab('Languages')">Languages</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="Skills">
+                                    <ul>
+                                        <li><span>Web Development</span><br> </li>
+                                        <li><span>Machine Learning</span><br> </li>
+                                        <li><span>Problem Solving enthusiast</span></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tab-contents" id="Education">
+                                    <ul>
+                                        <li><span>2022 - Present</span><br> Model Engineering College, Kochi<br>(BTech, Computer Science)</li>
+                                        <li><span>2018 - 2022</span><br> St. Antony's Public School</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tab-contents" id="Languages">
+                                    <ul>
+                                        <li><span>Python</span><br> </li>
+                                        <li><span>C</span><br> </li>
+                                        <li><span>HTML</span></li>
+                                        <li><span>Java</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-----------------------------projects----------------------------------->
+                <div id="projects">
+                    <div class="container">
+                        <h3 class="sub-title1">My Projects</h3>
+                        <div class="projects-list">
+                            <div>
+                                
+                                <h4>E-Cycle</h4>
+                                <p>The E-cycle initiative is a groundbreaking solution designed to simplify
+                                     e-waste collection and recycling efforts. The website serves as a dedicated platform
+                                      designed to assist both individuals and businesses in discovering responsible methods
+                                       to dispose of their old electronic devices, all while safeguarding the environment. </p>
+                            
+                                <a href="https://github.com/nikmat04/E-Cycle.git">Github Link</a>
+                            
+                            </div>
+                            <div>
+                                
+                                <h4>Excel CTF Frontend</h4>
+                                <p> Excel CTF was a challenge presented by Excel MEC in collaboration with
+                                    IEDC MEC to sharpen cybersecurity skills, solve real-world problems and 
+                                    join a collaborative community.
+                                </p>
+                            
+                                <a href="https://github.com/nikmat04/Excel-CTF-Frontend.git">Github Link</a>
+                            
+                            </div>
+                            <div>
+                                
+                                <h4>Vista-Voyages</h4>
+                                <p>Vista-Voyages is a website for a premium tourism and hospitality enterprise 
+                                    specializing in medicinal tourism, travel packages, exclusive private villas, 
+                                    and a spectrum of premium experiences.
+                                </p>
+                                <a href="https://github.com/nikmat04/Vista-Voyages.git">Github Link</a>
+                                <br>
+                                <a href="https://vista-voyages-website.vercel.app/">Link to website</a>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        
+        <!-----------------------------contact------------------------------------>
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h5 class="sub-title2">Contact Me</h5>
+                                <p><i class="fa-solid fa-envelope"></i>nikhilmathewmdm@gmail.com</p>
+                                <p><i class="fa-solid fa-square-phone"></i>+91 9846904163</p>
+                                <div class="social-icons">
+                                    <a href="https://www.linkedin.com/in/nikhilmdm/"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/nikmat04"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.instagram.com/_nikhil_mathew_/"><i class="fa-brands fa-instagram"></i></a>
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="contact-right">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button> 
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <script src="main.js"></script>
+    </body>
+</html>
+                        
+
+        
